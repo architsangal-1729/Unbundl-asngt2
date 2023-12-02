@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('images/AdobeStock_406506360_Preview.jpeg') center center fixed;
+    background-size: cover;
+}
+
+#customizer {
+    max-width: 600px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 425px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #8B4513;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#total-price {
+    margin-top: 20px;
+    font-size: 18px;
+}
+#cart-container {
+    /* border: 33%; */
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Set your desired background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    /* width: 50%; */
+    /* align-content: center; */
+}
+
+#cart {
+    color: #333;
+}
+
+#cart-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#total-price {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #8B4513;
+    /* top: 0; */
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    margin: 5;
+    top: 0;
+}
+
+.navbar {
+    background-color: #A52A2A; 
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #8B4513; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

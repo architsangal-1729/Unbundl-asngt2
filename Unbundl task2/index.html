@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Bundle Customizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to A1 Chocolate Centre.</h1>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+    </div>
+
+    <div id="customizer">
+        <h2>Chocolate Bundle Customizer</h2>
+
+        <label for="chocolate-select">Select Chocolates:</label>
+        <select id="chocolate-select" multiple>
+            <option value="dark">Dark Chocolate - ₹100.00</option>
+            <option value="milk">Milk Chocolate - ₹80.00</option>
+            <option value="white">White Chocolate - ₹120.00</option>
+            <option value="caramel">Caramel Chocolate - ₹150.00</option>
+            <option value="hazelnut">Hazelnut Chocolate - ₹130.00</option>
+        </select>
+
+        <label for="quantity">Select Quantity:</label>
+        <input type="number" id="quantity" min="1" max="8" value="1">
+
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div id="cart-container">
+        <div id="cart">
+            <h3>Your Cart</h3>
+            <ul id="cart-list"></ul>
+            <div id="total-price">Total Price: ₹0.00</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 A1 Chocolate Shop. All rights reserved.</p>
+        <p>Made with &hearts; by Archit Sangal.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
